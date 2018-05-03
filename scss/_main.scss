@@ -182,3 +182,22 @@ footer{
     margin: 5px;
   }
 }
+
+@media (min-width:320px) and (max-width:500px){
+  header .text {
+    font-size: 22px;
+  }
+  h1{
+    font-size: 75px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  .logo img{
+    width: 100px;
+  }
+  .article_section_item .description {
+    font-size: 26px;
+    line-height: 36.89px;
+  }
+}
