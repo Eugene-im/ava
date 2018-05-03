@@ -346,9 +346,9 @@ footer {
     margin: 5px;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
   header .text {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   h1 {
@@ -367,7 +367,8 @@ footer {
     font-size: 26px;
     line-height: 36.89px;
   }
-
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape) {
   header .scroller {
     bottom: 40px;
   }
