@@ -116,88 +116,95 @@ header {
     background-position-y: -705px;
   }
 }
-footer{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.example_item{
-	height: 237px;
+.example_item {
+  height: 237px;
   position: relative;
   margin: 0 0 10px;
   background-color: #e3e3e3;
-	.title{
-		position: absolute;
-		left:47px;
-		bottom: 42px;
-		color:#fff;
-
-	}
+  .title {
+    position: absolute;
+    left: 47px;
+    bottom: 42px;
+    color: #fff;
+  }
 }
 
-.i1-2,.i2-2{
+.i1-2,
+.i2-2 {
   flex: 1 1 782px;
   margin: 0 10px 10px;
 }
 
-.i1-1,.i2-1{
+.i1-1,
+.i2-1 {
   flex: 1 1 550px;
 }
 
-.i1-3,.i2-3{
-  flex: 1 1 548px;  
+.i1-3,
+.i2-3 {
+  flex: 1 1 548px;
 }
 
-.i2-1,.i2-2,.i2-3{
+.i2-1,
+.i2-2,
+.i2-3 {
   margin-bottom: 0;
 }
 
-.i1-1{
-  background: url("../img/1-p.png") center center no-repeat;    
-  background-size:cover; 
+.i1-1 {
+  background: url("../img/1-p.png") center center no-repeat;
+  background-size: cover;
 }
-.i1-2{
-  background: url("../img/2-p.png") center center no-repeat;    
-  background-size:cover; 
+.i1-2 {
+  background: url("../img/2-p.png") center center no-repeat;
+  background-size: cover;
 }
-.i1-3{
-  background: url("../img/3-p.png") center center no-repeat;    
-  background-size:cover; 
+.i1-3 {
+  background: url("../img/3-p.png") center center no-repeat;
+  background-size: cover;
 }
-.i2-1{
-  background: url("../img/4-p.png") center center no-repeat;    
-  background-size:cover; 
+.i2-1 {
+  background: url("../img/4-p.png") center center no-repeat;
+  background-size: cover;
 }
-.i2-2{
-  background: url("../img/5-p.png") center center no-repeat;    
-  background-size:cover; 
+.i2-2 {
+  background: url("../img/5-p.png") center center no-repeat;
+  background-size: cover;
 }
-.i2-3{
-  background: url("../img/6-p.png") center center no-repeat;    
-  background-size:cover; 
+.i2-3 {
+  background: url("../img/6-p.png") center center no-repeat;
+  background-size: cover;
 }
 
-@media (max-width:1899px){
-  .example_item{
+@media (max-width: 1899px) {
+  .example_item {
     margin: 5px;
   }
 }
 
-@media (min-width:320px) and (max-width:500px){
+@media (min-width: 320px) and (max-width: 700px) and (orientation:landscape){
   header .text {
     font-size: 22px;
   }
-  h1{
+  h1 {
     font-size: 75px;
   }
-  h3{
+  h3 {
     font-size: 30px;
   }
-  .logo img{
+  .logo img {
     width: 100px;
   }
   .article_section_item .description {
     font-size: 26px;
     line-height: 36.89px;
+  }
+  header .scroller {
+    bottom: 40px;
   }
 }
