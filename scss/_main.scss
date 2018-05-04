@@ -186,22 +186,31 @@ footer {
     margin: 5px;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation:portrait) {
-  header .text {
-    font-size: 25px;
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation:portrait) {
+
+  header .title {
+    margin: 44px 0 53px 0;
   }
-  h1 {
-    font-size: 75px;
-  }
+
   h3 {
     font-size: 30px;
   }
-  .logo img {
-    width: 100px;
+
+  header .scroller {
+    bottom: 40px;
   }
-  .article__section_item .item__description {
-    font-size: 26px;
-    line-height: 36.89px;
+
+  article {
+    margin: 54px auto;
+  }
+
+  .article__section_item{ 
+    margin: 29px;
+    .item__description {
+      font-size: 19px;
+      line-height: 24.89px;
+    }
   }
 }
 

@@ -92,11 +92,12 @@ footer { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wra
 .item__2_3 { background: url("../img/6-p.png") center center no-repeat; background-size: cover; }
 
 @media (max-width: 1899px) { .example__item { margin: 5px; } }
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) { header .text { font-size: 25px; }
-  h1 { font-size: 75px; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: portrait) { header .title { margin: 44px 0 53px 0; }
   h3 { font-size: 30px; }
-  .logo img { width: 100px; }
-  .article__section_item .item__description { font-size: 26px; line-height: 36.89px; } }
+  header .scroller { bottom: 40px; }
+  article { margin: 54px auto; }
+  .article__section_item { margin: 29px; }
+  .article__section_item .item__description { font-size: 19px; line-height: 24.89px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape) { header .scroller { bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
