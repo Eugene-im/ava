@@ -98,6 +98,12 @@ footer { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wra
   article { margin: 54px auto; }
   .article__section_item { margin: 29px; }
   .article__section_item .item__description { font-size: 19px; line-height: 24.89px; } }
-@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape) { header .scroller { bottom: 40px; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape) { header .logo { margin: -50px auto 0; }
+  header .title { margin: 22px 0; }
+  h1 { font-size: 43px; }
+  header .scroller { bottom: 20px; }
+  article { margin: 50px auto; }
+  .article__section_item { margin: 30px; }
+  .item__description { font-size: 17px; line-height: 22.89px; } }
 
 /*# sourceMappingURL=style.css.map */
