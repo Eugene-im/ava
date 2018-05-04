@@ -54,6 +54,8 @@ header {
   .scroller {
     position: absolute;
     bottom: 105px;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 

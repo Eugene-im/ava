@@ -44,7 +44,7 @@ header { color: #ffffff; text-align: center; position: relative; }
 header .logo { margin: -105px auto 0px; }
 header .title { max-width: 583px; margin: 94px 0 53px 0; letter-spacing: 7px; }
 header .text { font-size: 15px; max-width: 573px; font-weight: 400; line-height: 29px; text-transform: uppercase; }
-header .scroller { position: absolute; bottom: 105px; }
+header .scroller { position: absolute; bottom: 105px; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
 
 article { max-width: 902px; width: 100%; border: 2px solid #3c3c3c; margin: 144px auto 208px; text-align: center; padding: 15px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
